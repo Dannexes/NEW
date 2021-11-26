@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
 }
@@ -61,4 +62,12 @@ body{
 .search{
     position: absolute;
     left: 10.75%;
+=======
+.row{
+    width: 80%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+>>>>>>> a28d1a48970641819bfb762b980b2406ff52bb5d
 }
