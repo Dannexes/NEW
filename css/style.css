@@ -62,12 +62,26 @@ body{
 .search{
     position: absolute;
     left: 10.75%;
-=======
-.row{
+}
+
+
+.container{
     width: 80%;
-    margin: 200px auto;
+    margin:auto;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
->>>>>>> a28d1a48970641819bfb762b980b2406ff52bb5d
+
+}
+.card{
+    outline: none;
+    border: none;
+    text-align: left;
+}
+.card img{
+    width: 200px;
+    height: 500px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
 }
